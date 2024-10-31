@@ -116,7 +116,7 @@
 % \end{tabular*}
 
 \begin{center}
-    {\Huge \scshape Atharva Kale} \\ \vspace{1pt}
+    {\Huge \scshape Atharva Anil Kale} \\ \vspace{1pt}
     Bliss Avenue, Pune, Maharashtra 411045 \\ \vspace{1pt}
     \small \raisebox{-0.1\height}\faPhone\ 7768909821 ~ \href{mailto:atharvaakale@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{atharvaakale@gmail.com}} ~ 
     \href{https://www.linkedin.com/in/atharva-kale-78b46322b/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/atharva-kale-78b46322b/}}  ~
@@ -133,22 +133,17 @@
       {Bachelor of Engineering in Computer Engineering}{Pune, Maharashtra}
   \resumeSubHeadingListEnd
 
-%------RELEVANT COURSEWORK-------
-\section{Relevant Coursework}
-    %\resumeSubHeadingListStart
-        \begin{multicols}{4}
-            \begin{itemize}[itemsep=-5pt, parsep=3pt]
-                \item\small Data Structures
-                \item Software Methodology
-                \item Database Management
-                \item Artificial Intelligence
-                \item Internet Technology
-                \item Systems Programming
-                \item Computer Architecture
-            \end{itemize}
-        \end{multicols}
-        \vspace*{2.0\multicolsep}
-    %\resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Python, Java, HTML/CSS, JavaScript, ReactJS, SQL} \\
+     \textbf{Developer Tools}{: VS Code} \\
+     \textbf{Technologies/Frameworks}{: Linux, GitHub, Machine Learning} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
 
 
 %-----------EXPERIENCE-----------
@@ -170,6 +165,31 @@
 \section{Projects}
     \vspace{-5pt}
     \resumeSubHeadingListStart
+
+\resumeProjectHeading
+          {\textbf{Proxmox private server} $|$ \emph{Proxmox, Virtualization}}{May 2024}
+          \resumeItemListStart
+            \resumeItem{Created a private server using an old pc and proxmox a type1 Hyperviser.}
+            \resumeItem{Created a Docker container on linux VM and used Portainer for container management.}
+            \resumeItem{Deployed a cloud based storage NextCloud on server as a container similar to google drive/dropbox.}
+	    \resumeItem{Deployed a Dashboard application Dashy as a Docker container on linux VM which is a dashboard to access applications deployed on Server.}
+	   \resumeItem{Deployed the Sentiment analysis project website and flask API on linux VM using Nginx web server and used cloudflare tunnels to open the ports for external access}
+          \resumeItemListEnd
+
+	  \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Surface Level defect detection of assembly line products (BE Project)} $|$ \emph{Python, Flask, ReactJS}}{Current}
+          \resumeItemListStart
+            \resumeItem{Working on surface level defect detection of assembly line products as final year project.}
+            \resumeItem{Computer vision based system to detect surface level defects.}
+            \resumeItem{Deploying cameras on site to track defects in realtime and displaying alerts to the operator in realtime}
+          \resumeItemListEnd
+          
+       
+          
+
+
+\vspace{-13pt}
       \resumeProjectHeading
           {\textbf{Restaurant Reviews Sentiment Analysis} $|$ \emph{Python, Flask, ReactJS}}{April 2024}
           \resumeItemListStart
@@ -177,16 +197,10 @@
             \resumeItem{Used NLP for creating model and saved the model weights as a joblib file.}
             \resumeItem{Created an API using python flask loaded the model, on hitting the API request from website the input string is used for prediction and the predicted value is returned as response to the website.}
             \resumeItem{Created a React website for taking review as input and displaying the result.}
+	    \resumeItem{Deployed the project on private server.}
           \resumeItemListEnd
-          \vspace{-13pt}
-      \resumeProjectHeading
-          {\textbf{Private Cloud} $|$ \emph{Proxmox, Virtualization}}{May 2024}
-          \resumeItemListStart
-            \resumeItem{Created a private server using an old pc and proxmox a type1 Hyperviser.}
-            \resumeItem{Created a Docker container on linux VM and used Portainer for container management.}
-            \resumeItem{Deployed a cloud based storage NextCloud on server as a container similar to google drive/dropbox.}
-	    \resumeItem{Deployed a Dashboard application Dashy as a Docker container on linux VM which is a dashboard to access applications deployed on Server.}
-          \resumeItemListEnd 
+          
+       
           \vspace{-13pt}
           \resumeProjectHeading
           {\textbf{News Portal} $|$ \emph{ReactJS, API}}{August 2023}
@@ -197,18 +211,11 @@
     \resumeSubHeadingListEnd
 \vspace{-15pt}
 
+%------BLOGS SECTION-------
+\section{Blogs}
+   	  
 
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Java, C++, HTML/CSS, JavaScript,ReactJS, SQL} \\
-     \textbf{Developer Tools}{: VS Code} \\
-     \textbf{Technologies/Frameworks}{: Linux, GitHub, Machine Learning} \\
-    }}
- \end{itemize}
- \vspace{-16pt}
+	\href{https://medium.com/@atharvaakale/react-website-deployment-on-virtual-machines-14dba0ff45af}{\raisebox{-0.2\height}{{\textbf{ReactJS Website deployment on Linux virtual machines}}}}
 
 
 %-----------INVOLVEMENT---------------
@@ -219,6 +226,13 @@
                 \resumeItem{Joint Head of Web Team of Computer Engineering Student Committee}
                 \resumeItem{With the help of Team Head managed a team of 7 members.}
                 \resumeItem{Migrated committee website from plain HTML/CSS Javascript to ReactJS for fast and efficient browsing.}
+            \resumeItemListEnd
+
+	\resumeSubheading{Association of Computer Engineering Students}{2024 -- Current}{Technical Team Head}{PVGCOET}
+            \resumeItemListStart
+                \resumeItem{Head of technical team of Computer Engineering Student Committee}
+                \resumeItem{Managing a team of 5 members.}
+                \resumeItem{Conducting various technical sessions.}
             \resumeItemListEnd
         
     \resumeSubHeadingListEnd
